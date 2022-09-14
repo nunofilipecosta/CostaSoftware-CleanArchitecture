@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware-CleanArchitecture.Api", "src\CostaSoftware-CleanArchitecture.Api\CostaSoftware-CleanArchitecture.Api.csproj", "{AC3BD69F-C974-42CC-8600-8D2DD43747AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware-CleanArchitecture.Infrastructure", "src\CostaSoftware-CleanArchitecture.Infrastructure\CostaSoftware-CleanArchitecture.Infrastructure.csproj", "{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware-CleanArchitecture.Application", "src\CostaSoftware-CleanArchitecture.Application\CostaSoftware-CleanArchitecture.Application.csproj", "{0F7C63DD-7690-47C5-8424-779D35152A4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware-CleanArchitecture.Contracts", "src\CostaSoftware-CleanArchitecture.Contracts\CostaSoftware-CleanArchitecture.Contracts.csproj", "{53198EFB-624E-4D95-B71E-552B7E0B8C81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostaSoftware-CleanArchitecture.Domain", "src\CostaSoftware-CleanArchitecture.Domain\CostaSoftware-CleanArchitecture.Domain.csproj", "{559A31A7-2676-4905-8714-4BBA45DB264A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Presentation", "01-Presentation", "{C5F3A236-9EC9-4CE2-BA65-87ED7BFD7A8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Application", "02-Application", "{95F476D3-F775-45F4-94BF-A249840C246D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Entities", "03-Entities", "{D3B3B778-809F-4A92-9ACD-A3170C2F695A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Tests", "04-Tests", "{2E9180B8-67FF-4E8C-87CF-81F0F9F747A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostaSoftware-CleanArchitecture.Application.UnitTests", "src\CostaSoftware-CleanArchitecture.Application.UnitTests\CostaSoftware-CleanArchitecture.Application.UnitTests.csproj", "{E8F50F83-B08B-400A-A6EA-C75E5B161B63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3BD69F-C974-42CC-8600-8D2DD43747AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3BD69F-C974-42CC-8600-8D2DD43747AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3BD69F-C974-42CC-8600-8D2DD43747AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3BD69F-C974-42CC-8600-8D2DD43747AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7C63DD-7690-47C5-8424-779D35152A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7C63DD-7690-47C5-8424-779D35152A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7C63DD-7690-47C5-8424-779D35152A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7C63DD-7690-47C5-8424-779D35152A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53198EFB-624E-4D95-B71E-552B7E0B8C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53198EFB-624E-4D95-B71E-552B7E0B8C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53198EFB-624E-4D95-B71E-552B7E0B8C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53198EFB-624E-4D95-B71E-552B7E0B8C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559A31A7-2676-4905-8714-4BBA45DB264A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559A31A7-2676-4905-8714-4BBA45DB264A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559A31A7-2676-4905-8714-4BBA45DB264A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559A31A7-2676-4905-8714-4BBA45DB264A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F50F83-B08B-400A-A6EA-C75E5B161B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F50F83-B08B-400A-A6EA-C75E5B161B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F50F83-B08B-400A-A6EA-C75E5B161B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F50F83-B08B-400A-A6EA-C75E5B161B63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC3BD69F-C974-42CC-8600-8D2DD43747AE} = {C5F3A236-9EC9-4CE2-BA65-87ED7BFD7A8F}
+		{672DE8C3-9394-4B52-9F5F-2FFA4C412FA9} = {C5F3A236-9EC9-4CE2-BA65-87ED7BFD7A8F}
+		{0F7C63DD-7690-47C5-8424-779D35152A4E} = {95F476D3-F775-45F4-94BF-A249840C246D}
+		{53198EFB-624E-4D95-B71E-552B7E0B8C81} = {C5F3A236-9EC9-4CE2-BA65-87ED7BFD7A8F}
+		{559A31A7-2676-4905-8714-4BBA45DB264A} = {D3B3B778-809F-4A92-9ACD-A3170C2F695A}
+		{E8F50F83-B08B-400A-A6EA-C75E5B161B63} = {2E9180B8-67FF-4E8C-87CF-81F0F9F747A2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F07610E-B146-4A35-A93A-4AAB56F734B8}
+	EndGlobalSection
+EndGlobal
